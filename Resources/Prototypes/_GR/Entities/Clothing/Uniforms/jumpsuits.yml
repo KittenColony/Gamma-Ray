@@ -1,0 +1,34 @@
+# Engineering shit
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitEngineer
+  name: engineer bodysuit
+  description: An advanced synthetic bodysuit designed to keep you warm, cool and dry when working with machinery.
+  components:
+  - type: Sprite
+    sprite: _GR/Clothing/Engineering/Uniforms/Jumpsuit/engineer_bodysuit.rsi
+  - type: Clothing
+    sprite: _GR/Clothing/Engineering/Uniforms/Jumpsuit/engineer_bodysuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSeniorEng
+  name: senior engineer bodysuit
+  description: A pristine bodysuit designed for members of engineering seniors. The Union gives you strength.
+  components:
+  - type: Sprite
+    sprite: _GR/Clothing/Engineering/Uniforms/Jumpsuit/senior_bodysuit.rsi
+  - type: Clothing
+    sprite: _GR/Clothing/Engineering/Uniforms/Jumpsuit/senior_bodysuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRoboticEng
+  name: roboticist bodysuit
+  description: A hyperadvanced bodysuit personally worn by the roboticist. You feel closer to the Machines.
+  components:
+  - type: Sprite
+    sprite: _GR/Clothing/Engineering/Uniforms/Jumpsuit/roboticist_bodysuit.rsi
+  - type: Clothing
+    sprite: _GR/Clothing/Engineering/Uniforms/Jumpsuit/roboticist_bodysuit.rsi

@@ -1,0 +1,28 @@
+- type: entity
+  parent: ClothingOuterBaseRobe
+  id: ClothingOuterEngineerRobe
+  name: engineer robe
+  description: A heavy fireproof robe, designed with dozens of pockets and tools in mind.
+  components:
+  - type: Sprite
+    sprite: _GR/Clothing/Engineering/OuterClothing/Robes/engineer_robe.rsi
+  - type: Clothing
+    sprite: _GR/Clothing/Engineering/OuterClothing/Robes/engineer_robe.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodEngineer
+    slot: head
+  - type: TemperatureProtection
+    coefficient: 0.01
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.6
+        Piercing: 0.8
+        Heat: 0.4
+        Cold: 0.3
+        Radiation: 0.01
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []

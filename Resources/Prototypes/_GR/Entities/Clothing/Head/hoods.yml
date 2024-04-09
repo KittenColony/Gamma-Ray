@@ -1,0 +1,20 @@
+- type: entity
+  parent: ClothingHeadHatHoodRobe
+  id: ClothingHeadHatHoodEngineer
+  name: engineer hood
+  description: A hood designed alongside the Engineer robe, it has a blue visor.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: _GR/Clothing/Engineering/Head/Hoods/engineer_hood.rsi
+  - type: Clothing
+    sprite: _GR/Clothing/Engineering/Head/Hoods/engineer_hood.rsi
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: FlashImmunity
+  - type: IdentityBlocker
+  - type: EyeProtection
+  - type: Tag
+    tags:
+    - HidesHair
+    - WhitelistChameleon

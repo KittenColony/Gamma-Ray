@@ -251,3 +251,22 @@
   - type: Tag
     tags:
     - HidesHair
+
+# Gamma-Ray specific
+
+- type: entity
+  abstract: true
+  id: ClothingHeadHatHoodRobe
+  name: base robe hood
+  description: A hood, you feel protected
+  noSpawn: true
+  components:
+  - type: Sprite
+    state: icon
+  - type: Clickable
+  - type: Clothing
+    equipSound: /Audio/Effects/rustle1.ogg
+    unequipSound: /Audio/Effects/rustle2.ogg
+    quickEquip: false
+    slots: [ HEAD ]
+  - type: GroupExamine

@@ -137,3 +137,34 @@
   components:
   - type: Item
     size: Huge
+
+# Gamma-Ray specific
+
+- type: entity
+  abstract: true
+  parent: ClothingOuterBase
+  id: ClothingOuterBaseRobe
+  components:
+  - type: Storage
+    grid:
+    - 0,0,1,1
+    - 1,0,1,1
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+    - key: enum.StorageUiKey.Key
+      type: StorageBoundUserInterface
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodRobe
+    slot: head
+  - type: Item
+    size: Normal
+  - type: Clothing
+    slots:
+    - outerClothing
+  - type: ClothingSpeedModifier
+    sprintModifier: 0.9
+    walkModifier: 1
