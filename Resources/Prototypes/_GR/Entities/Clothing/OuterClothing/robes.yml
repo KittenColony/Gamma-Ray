@@ -5,12 +5,16 @@
   description: A heavy fireproof robe, designed with dozens of pockets and tools in mind.
   components:
   - type: Sprite
-    sprite: _GR/Clothing/Engineering/OuterClothing/Robes/engineer_robe.rsi
+    sprite: _GR/Clothing/OuterClothing/Robes/engineer_robe.rsi
   - type: Clothing
-    sprite: _GR/Clothing/Engineering/OuterClothing/Robes/engineer_robe.rsi
+    sprite: _GR/Clothing/OuterClothing/Robes/engineer_robe.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodEngineer
     slot: head
+  - type: Storage
+    grid:
+    - 0,0,2,1
+    - 3,0,2,1
   - type: TemperatureProtection
     coefficient: 0.01
   - type: Armor
@@ -21,8 +25,48 @@
         Heat: 0.4
         Cold: 0.3
         Radiation: 0.01
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
   - type: ContainerContainer
     containers:
       toggleable-clothing: !type:ContainerSlot {}
       storagebase: !type:Container
         ents: []
+
+- type: entity
+  parent: ClothingOuterEngineerRobe
+  id: ClothingOuterRoboticistRobe
+  name: roboticist robe
+  description: An augmented engineering robe, it has various trinkets and baubles on it that clatter as it moves.
+  components:
+  - type: Sprite
+    sprite: _GR/Clothing/OuterClothing/Robes/roboticist_robe.rsi
+  - type: Clothing
+    sprite: _GR/Clothing/OuterClothing/Robes/roboticist_robe.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodRoboticist
+    slot: head
+
+- type: entity
+  parent: ClothingOuterEngineerRobe
+  id: ClothingOuterSeniorRobe
+  name: senior robe
+  description: An extremely well made engineer robe, made of experimental material.
+  components:
+  - type: Sprite
+    sprite: _GR/Clothing/OuterClothing/Robes/senior_robe.rsi
+  - type: Clothing
+    sprite: _GR/Clothing/OuterClothing/Robes/senior_robe.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodSenior
+    slot: head
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.5
+        Piercing: 0.75
+        Heat: 0.3
+        Cold: 0.2
+        Radiation: 0.01
+  - type: ExplosionResistance
+    damageCoefficient: 0.90

@@ -7,9 +7,9 @@
   description: An advanced synthetic bodysuit designed to keep you warm, cool and dry when working with machinery.
   components:
   - type: Sprite
-    sprite: _GR/Clothing/Engineering/Uniforms/Jumpsuit/engineer_bodysuit.rsi
+    sprite: _GR/Clothing/Uniforms/Jumpsuit/engineer_bodysuit.rsi
   - type: Clothing
-    sprite: _GR/Clothing/Engineering/Uniforms/Jumpsuit/engineer_bodysuit.rsi
+    sprite: _GR/Clothing/Uniforms/Jumpsuit/engineer_bodysuit.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -18,9 +18,9 @@
   description: A pristine bodysuit designed for members of engineering seniors. The Union gives you strength.
   components:
   - type: Sprite
-    sprite: _GR/Clothing/Engineering/Uniforms/Jumpsuit/senior_bodysuit.rsi
+    sprite: _GR/Clothing/Uniforms/Jumpsuit/senior_bodysuit.rsi
   - type: Clothing
-    sprite: _GR/Clothing/Engineering/Uniforms/Jumpsuit/senior_bodysuit.rsi
+    sprite: _GR/Clothing/Uniforms/Jumpsuit/senior_bodysuit.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -29,6 +29,6 @@
   description: A hyperadvanced bodysuit personally worn by the roboticist. You feel closer to the Machines.
   components:
   - type: Sprite
-    sprite: _GR/Clothing/Engineering/Uniforms/Jumpsuit/roboticist_bodysuit.rsi
+    sprite: _GR/Clothing/Uniforms/Jumpsuit/roboticist_bodysuit.rsi
   - type: Clothing
-    sprite: _GR/Clothing/Engineering/Uniforms/Jumpsuit/roboticist_bodysuit.rsi
+    sprite: _GR/Clothing/Uniforms/Jumpsuit/roboticist_bodysuit.rsi

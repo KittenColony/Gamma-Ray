@@ -6,9 +6,9 @@
   noSpawn: true
   components:
   - type: Sprite
-    sprite: _GR/Clothing/Engineering/Head/Hoods/engineer_hood.rsi
+    sprite: _GR/Clothing/Head/Hoods/engineer_hood.rsi
   - type: Clothing
-    sprite: _GR/Clothing/Engineering/Head/Hoods/engineer_hood.rsi
+    sprite: _GR/Clothing/Head/Hoods/engineer_hood.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: FlashImmunity
@@ -18,3 +18,28 @@
     tags:
     - HidesHair
     - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadHatHoodEngineer
+  id: ClothingHeadHatHoodRoboticist
+  name: roboticist hood
+  description: A hood designed alongside the Roboticist robe, it has an orange visor.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: _GR/Clothing/Head/Hoods/roboticist_hood.rsi
+  - type: Clothing
+    sprite: _GR/Clothing/Head/Hoods/roboticist_hood.rsi
+
+- type: entity
+  parent: ClothingHeadHatHoodEngineer
+  id: ClothingHeadHatHoodSenior
+  name: senior hood
+  description: A hood designed alongside the Senior robe, it has a green visor.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: _GR/Clothing/Head/Hoods/senior_hood.rsi
+  - type: Clothing
+    sprite: _GR/Clothing/Head/Hoods/senior_hood.rsi
+
