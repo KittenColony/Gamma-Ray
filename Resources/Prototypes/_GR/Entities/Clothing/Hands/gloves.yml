@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesIndustrial
+  name: industrial gloves
+  description: Heavy industrial gloves designed to protect from more then just electric shocks.
+  components:
+  - type: Sprite
+    sprite: _GR/Clothing/Hands/Gloves/Protective/industrial_gloves.rsi
+  - type: Clothing
+    sprite: _GR/Clothing/Hands/Gloves/Protective/industrial_gloves.rsi
+  - type: GloveHeatResistance
+    heatResistance: 1400
+    spawned:
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+    fiberColor: fibers-yellow

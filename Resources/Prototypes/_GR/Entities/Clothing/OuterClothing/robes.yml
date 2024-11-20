@@ -26,7 +26,7 @@
         Cold: 0.3
         Radiation: 0.01
   - type: ExplosionResistance
-    damageCoefficient: 0.90
+    damageCoefficient: 0.60
   - type: ContainerContainer
     containers:
       toggleable-clothing: !type:ContainerSlot {}
@@ -69,4 +69,4 @@
         Cold: 0.2
         Radiation: 0.01
   - type: ExplosionResistance
-    damageCoefficient: 0.90
+    damageCoefficient: 0.50

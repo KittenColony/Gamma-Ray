@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: ClothingShoesBootsTech
+  name: techboots
+  description: Reinforced alloy-toe boots, perfect for kicking down non-believers and saboteurs alike.
+  components:
+  - type: Sprite
+    sprite: _GR/Clothing/Shoes/Boots/techboots.rsi
+  - type: Clothing
+    sprite: _GR/Clothing/Shoes/Boots/techboots.rsi
